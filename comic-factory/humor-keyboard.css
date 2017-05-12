@@ -1,1 +1,9 @@
-humor-keyboard.css
+#background-image {
+    background-image: url('images/commitstrip-background.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+#keys {
+
+}
