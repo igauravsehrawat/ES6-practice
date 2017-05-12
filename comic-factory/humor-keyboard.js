@@ -21,7 +21,7 @@ function soundHumor(event) {
     var soundKeys = Object.keys(keySoundAssociation);
     if (found(event.key, soundKeys)) {
         var audio = new Audio(keySoundAssociation[event.key]);
-        audio.load();
+        // audio.load();
         audio.play();
         var key =  document.querySelector(`.key[data-key="${event.keyCode}"]`)
         key.classList.add('key-pressed');
