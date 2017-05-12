@@ -5,7 +5,7 @@ html, body {
 
 #background-image {
     /*Use High res image otherwise.*/
-    background: repeat center/100% url('images/commitstrip-background.jpg');
+    background: repeat center/100% url('images/minions-background.jpg');
     height: 100%;
     width: 100%;
     display: flex;
