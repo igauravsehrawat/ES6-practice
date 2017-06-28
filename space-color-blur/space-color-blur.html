@@ -9,14 +9,16 @@
     <link rel="stylesheet" type="text/css" href="space-color-blur.css">
 </head>
 <body>
-    <h1>Space--Color--Blur with <span id="js-color">JS</span></h1>
-    <h2 class="h2-inline">Space</h2><input type="range" name="space">
-    <h2 class="h2-inline">Color</h2><input type="color" name="color">
-    <h2 class="h2-inline">Blur</h2><input type="range" name="blur">
+    <div id="all-components">
+        <h1>Space--Color--Blur with <span id="js-color">JS</span></h1>
+        <div class="inline-elements"><h2>Space</h2><input type="range" value="5" max="25" name="space" data-suffix="px"></div>
+        <div class="inline-elements"><h2>Color</h2><input type="color" name="color" value="#bada55"></div>
+        <div class="inline-elements"><h2>Blur</h2><input type="range" value="2" max="25" name="blur" data-suffix="px"></div>
 
-    <div id="img-container">
-        <img src="my-pic.JPG" name="my-pic">
+        <div id="img-container">
+            <img src="my-pic.JPG" name="my-pic">
+        </div>
     </div>
-    <script type="text/javascript" src="space-color-blur.js"></script>
 </body>
+    <script type="text/javascript" src="space-color-blur.js"></script>
 </html>
